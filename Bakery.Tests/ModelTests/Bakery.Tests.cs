@@ -82,6 +82,14 @@ namespace Bakery.Tests
     newPastry.SetPrice();
     Assert.AreEqual(10, newPastry.SetPrice());
   }
+
+  [TestMethod]
+
+  public void GetTotal_AddBakeryItems_Int()
+  {
+    Assert.AreEqual(8, OrderTotal.CalculatedTotal(4, 4));
   }
+  }
+  
 } 
   
