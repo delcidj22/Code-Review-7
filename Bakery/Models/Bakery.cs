@@ -1,9 +1,9 @@
-namespace Bakery.Modles 
+namespace Bakery.Models
 {
-  public class Bakery
+  public class Bread
   {
-    public int NumberOfLoaves {get; set; }
-    public int CostOfLoaves {get; set; }
+    public int NumberOfLoaves { get; set; }
+    public int CostOfLoaves { get; set; }
     public Bread(int numberOfLoaves, int costOfLoaves = 0 )
     {
       NumberOfLoaves = numberOfLoaves;
@@ -50,6 +50,4 @@ namespace Bakery.Modles
       return Total;
     }
   }
-
-
 }
