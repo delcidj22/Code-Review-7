@@ -38,9 +38,8 @@
 
 
 ## Known Bugs
-- _When starting with pastries, app is not letting run an else if to go pack and add bread to total order. Start by adding bread if you would like to add both._
+- _When starting with pastries, app is not letting run an else if to go back and add bread to total order. Start by adding bread if you would like to add both._
 
-_
 
 ## License
 [MIT License](https://opensource.org/licenses/MIT) Published _**2022**_ _**Jonathan Declid**_
